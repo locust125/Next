@@ -1,91 +1,21 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import styles from './page.module.css'
-
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    <>
+      
+      <section className="seccion">
+        <img className="img" src="https://images.unsplash.com/photo-1568526381923-caf3fd520382?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80" />
+        <img className="img" src="https://www.agroconsultar.com/images/cursoapicultura.jpg" />
+        <img className="img" src="https://www.consumer.es/app/uploads/2019/07/img_colmena-3.jpg" />
+        <img className="img" src="https://cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/4IFQ6C4CDRWLTMYDU66WSYIYSM.jpg" />
+        <img className="img" src="https://informefracto.com/wp-content/uploads/2019/11/1092_kaab_cuatro_cuatro_museo_vivo.jpg" />
+        <img className="img" src="https://p4.wallpaperbetter.com/wallpaper/274/846/487/bees-animals-macro-insect-wallpaper-preview.jpg" />
+        <img className="img" src="https://thumbs.dreamstime.com/b/apicultor-que-comprueba-la-miel-producida-por-las-abejas-apicultura-o-es-el-mantenimiento-de-colonias-abeja-com%C3%BAnmente-en-152170066.jpg" />
+        <img className="img" src="https://i0.wp.com/goula.lat/wp-content/uploads/2021/05/miel.jpg?resize=800%2C535&ssl=1" />
+        
+      </section>
+    </>
   )
 }
